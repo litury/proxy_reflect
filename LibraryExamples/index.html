@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <style>
-    .color{
-      color: red;
-    }
-  </style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<style>
+        .color {
+            color: red;
+        }
+
+        .hover {
+            display: none;
+        }
+
+        .hidden {
+            background-color: red;
+            width: 10px;
+            height: 10px;
+        }
+	</style>
 </head>
 <body>
 
-  <p>
-    some text for click
-  </p>
+<div class="myDivClass">
+	<input id="myDivId" type="text">
+</div>
 
-  <p class="color">
-    some text for change color on click
-  </p>
-  <p class="hide">
-    hidden text
-  </p>
+<ul id="menu">
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ul>
 
-  <script src="jQueryExamples.js"></script>
+<p>
+	some text for click
+</p>
+
+<p class="color">
+	some text for change color on click
+</p>
+
+<div class="hidden">
+
+</div>
+
+<p class="hide someClass">
+	hidden text
+</p>
+
+<script src="jQueryExamples.js"></script>
 
 </body>
 </html>

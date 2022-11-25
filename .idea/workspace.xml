@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="509fd399-7a9a-4298-94d2-430b84e21ada" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryExamples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryExamples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryExamples/jQueryExamples.js" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryExamples/jQueryExamples.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProxyExamples/homework.js" beforeDir="false" afterPath="$PROJECT_DIR$/ProxyExamples/homework.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +38,7 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/jcu/Desktop/my_skils/devhouse/proxy_reflect",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669189254052</updated>
-      <workItem from="1669189255289" duration="19623000" />
+      <workItem from="1669189255289" duration="22180000" />
     </task>
     <servers />
   </component>
