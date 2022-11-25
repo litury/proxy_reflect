@@ -69,29 +69,18 @@ let personProxy = new Proxy(person, {
 		} else {
 			return target[prop]
 		}
+	},
 
-
+	ownKeys(target) {
+		return Object.keys(target).filter(key => key.startsWith('get'))
 	}
-	/**
-	 * ------------------------------------ *
-	 * ВАШ КОД ТУТ
-	 *  ...
-	 * get (...){...}
-	 *  ...
-	 * ------------------------------------- *
-	 */
 })
 
-// [ 'Kolya', 'Anya', 'Misha', 'Sasha', 'Eugene', 'Dasha' ]
-personProxy.friends = "Sasha_Eugene_Dasha";
 
-console.log(personProxy.friends);
-console.log(personProxy.friends_name);
-
-console.log(personProxy.age_citizen_name_age);
+console.log(personProxy.age_citizen_name_age)
 
 /**
- * ----------------- ЗАДАНИЕ №1 ---------------------- *
+ * ----------------- ЗАДАНИЕ №2 ---------------------- *
  * 1. Выяснить, какие базовые методы вызываются у объекта когда к нему применяют цикл for (let prop in personProxy)
  * 2. Проксировать эти методы таким образом, чтобы при прохождении идентификаторов свойств объекта
  *  циклом for...in в prop попадали только методы, которые начинаются с get
@@ -100,3 +89,6 @@ console.log(personProxy.age_citizen_name_age);
  * --------------------------------------------------- *
  */
 
+for (let key in personProxy) {
+	console.log(personProxy[key]())
+}
